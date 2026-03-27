@@ -1,0 +1,39 @@
+# Data files (trop volumineux pour git)
+data/
+
+# Environnement virtuel Python
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Sandbox (brouillons / essais)
+sandbox/
+
+# Variables d'environnement (credentials)
+.env
+
+# Backups
+*.bckp
+*.bak
+*~
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Poetry lock intentionally tracked for reproducibility
+# poetry.lock
